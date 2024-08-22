@@ -1,0 +1,369 @@
+/*body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: radial-gradient(rgb(0, 217, 255), rgb(95, 53, 211));
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 80%;
+    max-width: 370px;
+    border: 1px solid black;
+    outline: 2px solid yellowgreen;
+    outline-offset: 2px;
+    box-shadow: -1px 2px 10px black;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(120deg, rgb(66, 58, 58), rgb(173, 28, 28), rgb(203, 157, 9));
+    margin-top: 0px;
+    position: relative;
+    justify-content: space-between;
+    height: 520px;
+}
+
+.text-box {
+    width: 100%;
+    height: 90px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.text-box .display {
+    height: 38px;
+    width: 94%;
+    margin: auto 2%;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 30px;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.text-box .display-2 {
+    visibility: hidden;
+    height: 22px;
+    text-align: right;
+    font-size: 15px;
+    margin: 16px 5% auto 46.5%;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+    margin-top: 15px;
+}
+
+.button-1 input {
+    font-size: larger;
+    margin-right: 20px;
+    background-color: brown;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.span {
+    margin-left: 70px;
+}
+
+.button-2,
+.button-3,
+.button-4,
+.button-5 {
+    margin-left: 15px;
+    width: 95%;
+    column-gap: 5rem;
+    gap: 2rem;
+    // margin: 15px 0px 15px 0px; 
+}
+
+.button-2 input,
+.button-3 input,
+.button-4 input,
+.button-5 input {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-right: 18px;
+    font-size: 1.5rem;
+    background-color: rgb(207, 144, 144);
+    box-shadow: -2px -2px 4px black;
+}
+
+.feedback button {
+    height: 25px;
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 40px;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    left: 115px;
+    background-color: #d36969;
+}
+
+/* .second-box {
+    width: 100%;
+    margin: auto;
+    right: 0px;
+    position: absolute;
+    background: linear-gradient(120deg, rgb(66, 58, 58), rgb(173, 28, 28), rgb(202, 138, 20));
+    top: 180px;
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+.second-1 input,
+.second-2 input,
+.second-3 input,
+.second-4 input {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    font-size: larger;
+    background-color: rgb(207, 144, 144);
+    box-shadow: -2px -2px 4px black;
+} 
+
+@media screen and (max-width:475px) {
+    body {
+        padding: 0px 10px;
+        margin: 0px;
+    }
+
+    .main-box {
+        width: 325px;
+
+        margin-bottom: 150px;
+
+    }
+
+    .button-2 input,
+    .button-3 input,
+    .button-4 input,
+    .button-5 input {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        font-size: large;
+        margin-right: 5px;
+        margin-left: 3px;
+    }
+
+    .second-box {
+        width: 100%;
+        margin: auto;
+        padding-right: -10px;
+        position: absolute;
+        top: 180px;
+    }
+
+    .second-1 input,
+    .second-2 input,
+    .second-3 input,
+    .second-4 input {
+        margin-right: 5px;
+        margin-bottom: 25px;
+        margin-left: 5px;
+        font-size: large;
+    }
+
+    .second-1,
+    .second-2,
+    .second-3,
+    .second-4 {
+        margin-left: 20px;
+    }
+
+    .text-box .display-2 {
+        margin: 10px 0px 3px 100px;
+        height: 25px;
+
+    }
+
+    .span {
+        margin-left: 50px;
+    }
+}*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: radial-gradient(rgb(0, 217, 255), rgb(95, 53, 211));
+}
+
+.main-box {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+.text-box {
+    width: 100%;
+    height: 80px;
+    background-color: #363635;
+    border-radius: 10px;
+
+}
+
+.text-box .display {
+    height: 70%;
+    background: transparent;
+    border: none;
+    color: aliceblue;
+    text-align: right;
+    font-size: 1.6rem;
+    padding-right: 5px;
+    visibility: hidden;
+}
+
+.text-box .display-2 {
+    width: 99%;
+    height: 30%;
+    background: transparent;
+    border: none;
+    color: aliceblue;
+    text-align: right;
+    font-size: 1rem;
+
+}
+
+.button-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 10px;
+
+}
+
+.button-1 input {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+.button-2,
+.button-3,
+.button-4,
+.button-5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.button-2 input,
+.button-3 input,
+.button-4 input,
+.button-5 input {
+    padding: 20px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button-2 input:hover,
+.button-3 input:hover,
+.button-4 input:hover,
+.button-5 input:hover {
+    background: rgba(4, 47, 54, 0.57);
+    border-radius: 50%;
+}
+
+.text-box .display-2 {
+    text-align: right;
+}
+
+.second-2,
+.second-3,
+.second-4,
+.second-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.second-box {
+    display: none;
+}
+
+.second-box-2 {
+    display: inline;
+}
+
+.first-box {
+    display: inline;
+}
+
+.first-box-2 {
+    display: none;
+}
+
+.second-2 input,
+.second-3 input,
+.second-4 input,
+.second-1 input {
+    width: 70px;
+    padding: 20px;
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.second-2 input:hover,
+.second-3 input:hover,
+.second-4 input:hover,
+.second-1 input:hover {
+    background: rgba(4, 47, 54, 0.57);
+    border-radius: 50%;
+}
+
+.feedback {
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transform: translateY(-110px);
+}
+
+.feedback a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}

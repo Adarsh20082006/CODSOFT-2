@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords"
+        content="Adarsh M M,Adarsh,adarsh m m,calculator,calculatorbyadarsh.netlify.app,calculatorbyadarshmm,calculatorwithadarsh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calci.css">
+    <meta name="application-name" content="Calculator">
+    <title>Simple calculator</title>
+    <script src="Calci.js"></script>
+    <link rel="html" href="feedback.html" type="text/html">
+</head>
+
+<body>
+
+    <div class="main-box">
+        <div class="text-box">
+            <input type="text" id="" name="display" placeholder="Enter math operations" class="display" disabled><br>
+            <input type="text" class="display-2" disabled>
+        </div>
+        <div class="button-1">
+            <input type="button" class="on" accesskey="q" value="ON / OFF" onclick="on()">
+            <input type="button" accesskey="q" value="AC" onclick="ac()">
+            <input type="button" accesskey="a" value="Delete" onclick="dlt()"><span class="span" onclick="open1()">
+                <img src="menu.png" width="20">
+            </span>
+        </div>
+        <div class="first-box">
+            <div class="button-2">
+                <input type="button" class="x7" accesskey="7" value="7" class="btn7" onclick="data('7')">
+                <input type="button" class="x8" accesskey="8" value="8" onclick="data('8')">
+                <input type="button" class="x9" accesskey="9" value="9" onclick="data('9')">
+                <input type="button" class="x*" accesskey="*" value="x" onclick="data('*')">
+            </div>
+            <div class="button-3">
+                <input type="button" class="x4" accesskey="4" value="4" onclick="data('4')">
+                <input type="button" class="x5" accesskey="5" value="5" onclick="data('5')">
+                <input type="button" class="x6" accesskey="6" value="6" onclick="data('6')">
+                <input type="button" accesskey="/" value="/" onclick="data('/')">
+            </div>
+            <div class="button-4">
+                <input type="button" class="x1" accesskey="1" value="1" onclick="data('1')">
+                <input type="button" class="x2" accesskey="2" value="2" onclick="data('2')">
+                <input type="button" class="x3" accesskey=3 value="3" onclick="data('3')">
+                <input type="button" class="x-sub" accesskey="-" value=&minus; onclick="data('-')">
+            </div>
+            <div class="button-5">
+                <input type="button" class="x0" accesskey="0" value="0" onclick="data('0')">
+                <input type="button" accesskey="." value="." onclick="data('.')">
+                <input type="button" class="x-add" accesskey="+" value="+" onclick="data('+')">
+                <input type="button" class="eql" accesskey="=" value="=" onclick="data1()">
+            </div>
+        </div>
+        <div class="second-box">
+            <div class="second-1">
+                <input type="button" value="&Sqrt;" onclick="sq()">
+                <input type="button" value="3&Sqrt;" onclick="cu()">
+                <input type="button" value="10^x" onclick="po()">
+                <input type="button" value="x^10" onclick="xpo()">
+
+            </div>
+            <div class="second-2">
+                <input type="button" value="sin θ" onclick="sin()">
+                <input type="button" value="cos θ" onclick="cos()">
+                <input type="button" value="tan θ" onclick="tan()">
+                <input type="button" value="x^2" onclick="x2()">
+            </div>
+            <div class="second-3">
+                <input type="button" value="asin θ" onclick="isin()">
+                <input type="button" value="acos θ" onclick="icos()">
+                <input type="button" value="atan θ" onclick="itan()">
+                <input type="button" value="x^3" onclick="x3()">
+            </div>
+            <div class="second-4">
+                <input type="button" value="log(x)" onclick="logarithm()">
+                <input type="button" value="ln(x)" onclick="ln()">
+                <input type="button" value="exp(x)" onclick="expo()">
+                <input type="button" value="=" onclick="data1()">
+            </div>
+        </div>
+
+    </div>
+    <button class="feedback"><a href="feedback.html">Feedback</a></button>
+</body>
+
+</html>
