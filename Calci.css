@@ -212,13 +212,15 @@ body {
     display: grid;
     place-items: center;
     background-image: radial-gradient(rgb(0, 217, 255), rgb(95, 53, 211));
+
 }
 
 .main-box {
     border: 2px solid black;
     padding: 5px;
     border-radius: 10px;
-    min-width: 300px;
+    min-width: 280px;
+    margin: 10px;
 }
 
 .text-box {
@@ -359,7 +361,7 @@ body {
     cursor: pointer;
     border-radius: 5px;
     border: none;
-    transform: translateY(-110px);
+    transform: translateY(-90px);
 }
 
 .feedback a {
