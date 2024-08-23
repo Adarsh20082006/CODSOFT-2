@@ -205,6 +205,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -219,6 +220,8 @@ body {
     border: 2px solid black;
     padding: 5px;
     border-radius: 10px;
+    width: 90%;
+    margin: auto;
     /* min-width: 280px; */
     background-color: rgb(223, 204, 188);
     position: relative;
@@ -377,20 +380,4 @@ body {
     padding: 10px;
 } */
 
-@media (width<=360px) {
-    .main-box {
-
-        width: auto;
-        display: flex;
-        pointer-events: visible;
-        justify-content: space-around;
-        flex-direction: column;
-        margin: auto;
-        overflow: hidden;
-
-    }
-
-    body {
-        padding: 10px
-    }
-}
+@media (width<=360px) {}
