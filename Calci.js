@@ -100,6 +100,7 @@ function ac() {
    document.querySelector(".display").value = " ";
    document.querySelector(".display-2").value = " ";
    document.querySelector(".second-box-2").classList.replace("second-box-2", "second-box");
+   document.querySelector(".first-box").classList.toggle("first-box-2")
 
 }
 

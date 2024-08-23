@@ -219,8 +219,10 @@ body {
     border: 2px solid black;
     padding: 5px;
     border-radius: 10px;
-    min-width: 280px;
+    /* min-width: 280px; */
     margin: 10px;
+    background-color: rgb(223, 204, 188);
+    position: relative;
 }
 
 .text-box {
@@ -361,7 +363,9 @@ body {
     cursor: pointer;
     border-radius: 5px;
     border: none;
-    transform: translateY(-90px);
+    /* transform: translateY(-90px); */
+    position: relative;
+    top: 0px;
 }
 
 .feedback a {
