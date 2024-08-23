@@ -377,15 +377,16 @@ body {
     padding: 10px;
 } */
 
-/* @media (width<=360px) { */
-.main-box {
+@media (width<=360px) {
+    .main-box {
 
-    width: auto;
-    display: flex;
-    pointer-events: visible;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: auto;
-    overflow: hidden;
+        width: auto;
+        display: flex;
+        pointer-events: visible;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: auto;
+        overflow: hidden;
 
+    }
 }
