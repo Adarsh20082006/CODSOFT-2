@@ -220,7 +220,6 @@ body {
     padding: 5px;
     border-radius: 10px;
     /* min-width: 280px; */
-    margin: 10px;
     background-color: rgb(223, 204, 188);
     position: relative;
 }
@@ -378,14 +377,15 @@ body {
     padding: 10px;
 } */
 
-@media (width<=360px) {
-    .main-box {
-        margin: 10px;
-        width: auto;
-        display: flex;
+/* @media (width<=360px) { */
+.main-box {
 
-        justify-content: space-around;
-        flex-direction: column;
-    }
+    width: auto;
+    display: flex;
+    pointer-events: visible;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    overflow: hidden;
 
 }
