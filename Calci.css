@@ -237,6 +237,7 @@ body {
 
 .text-box .display {
     height: 70%;
+    width: 100%;
     background: transparent;
     border: none;
     color: aliceblue;
